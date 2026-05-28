@@ -1,3 +1,7 @@
+* { /* this section added */
+  font-size: 16px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +10,31 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 16px auto; /*added */
+  padding: 10px; /* added, correct is 8 */
 }
 
 .title {
   background: #e3f4ff;
+  padding: 16px; /* added */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px; /* added */
+  margin: 10px 0; /* added */
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align:center; /* added */
+  padding: 8px; /* added */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display:block; /* added */
+  margin:auto; /* added */
+  padding: 16px; /* added */
 }
