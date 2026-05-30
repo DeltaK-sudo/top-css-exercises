@@ -67,3 +67,27 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* my sol */
+.modal {
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:12px;
+  align-items: center;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
+}
+
+.buttons {
+  margin-top: 12px;
+}
